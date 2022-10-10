@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    
+    
+    }
+    
+
+
+img#hero {
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+    
+       
+    
+}
+
+h1#hero {
+    font-style: italic;
+    color: rgb(101, 44, 175);
+    font-family: "silkscreen", cursive;
+}
+
+
+
+
+h4 {
+    color: rgb(101, 44, 175);
+
+}
+
+nav {
+    background-color: rgb(101, 44, 175);
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+  
+
+}
+li{
+ height: 100%;
+ width: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+ 
+}
+
+li a {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex; 
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-decoration: nome;
+   color: rgb(0, 0, 0);
+    width: 100%;
+    
+
+}
+
+li a:hover {
+    color: rgb(14, 55, 71);
+    
+}
+
+main{
+    
+    background-color: rgb(0, 0, 0);
+    align-items: top;
+}
+
+img#hero2{
+    width: 300px;
+    margin: 0px 0px 0px 0px;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+h3{
+    color:rgb(101, 44, 175);
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+footer {
+   position: fixed;
+    bottom: 0px;
+    background-color: rgb(101, 44, 175);
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
